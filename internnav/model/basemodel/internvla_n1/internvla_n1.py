@@ -353,7 +353,7 @@ class InternVLAN1ForCausalLM(Qwen2_5_VLForConditionalGeneration, InternVLAN1Meta
         depths_dp=None,
         predict_step_nums=32,
         guidance_scale: float = 1.0,
-        num_inference_steps: int = 10,
+        num_inference_steps: int = 16,
         num_sample_trajs: int = 32,
     ):
         if 'nextdit' in self.get_system1_type():
