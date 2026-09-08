@@ -61,7 +61,7 @@ small-scale descriptive evidence rather than population-level estimates.
 | --- | ---: | ---: |
 | Candidate trajectories | 32 | 32 |
 | Predicted trajectory steps | 32 | 32 |
-| Diffusion inference steps | 10 | 16 |
+| Diffusion inference steps | 16 | 16 |
 | Checked horizon | 12 | 12 |
 | Depth-image stride | 4 | 4 |
 | Filter depth range | 0.15–5.0 m | 0.05–8.0 m |
@@ -73,7 +73,7 @@ small-scale descriptive evidence rather than population-level estimates.
 | Minimum support fraction | 0.55 | 0.55 |
 
 The physical collision-query radius is represented in the launch interface as
-a 0.24 m robot radius plus a 0.08 m safety margin.
+a 0.22 m robot radius plus a 0.10 m safety margin.
 
 ## Repository structure
 
