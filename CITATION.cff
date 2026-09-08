@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this project and the upstream InternNav/InternVLA work."
+title: "Collision-Aware Geometric Trajectory Filtering for Vision-and-Language Navigation"
+type: software
+authors:
+  - given-names: "Zimo"
+    family-names: "Chen"
+date-released: "2026-09-08"
+repository-code: "https://github.com/Zimoc02/Collision-Aware-Trajectory-Filtering"
+url: "https://github.com/Zimoc02/Collision-Aware-Trajectory-Filtering"
+license: MIT
+references:
+  - type: software
+    title: "InternNav: InternRobotics' open platform for building generalized navigation foundation models"
+    authors:
+      - name: "InternNav Contributors"
+    url: "https://github.com/InternRobotics/InternNav"
